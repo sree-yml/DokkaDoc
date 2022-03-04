@@ -47,7 +47,7 @@ android {
 }
 
 tasks.dokkaGfm.configure {
-    outputDirectory.set(file("../../docs"))
+    outputDirectory.set(file("../docs"))
     dokkaSourceSets {
         configureEach {
             displayName.set("JVM")
